@@ -1,0 +1,5 @@
+en:
+  site_settings:
+    discourse_slackdoor_enabled: 'Enable discourse-slackdoor plugin'
+    discourse_slackdoor_username: 'Name of user act as when fetching content'
+    discourse_slackdoor_token: 'Token sent in the payload from the Slack outoing webhook'

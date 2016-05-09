@@ -1,0 +1,6 @@
+plugins:
+  discourse_slackdoor_enabled:
+    default: false
+  discourse_slackdoor_token:
+    default: replace-with-outgoing-webhook-token
+  discourse_slackdoor_username:
