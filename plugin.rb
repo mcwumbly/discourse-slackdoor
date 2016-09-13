@@ -87,7 +87,7 @@ after_initialize do
     def handle_unverified_request
     end
 
-    def api_key_valid?
+    def is_api?
       true
     end
 
