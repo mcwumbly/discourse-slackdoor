@@ -21,9 +21,9 @@ after_initialize do
   class DiscourseSlackdoor::SlackdoorController < ::ApplicationController
     requires_plugin PLUGIN_NAME
 
-    before_filter :slackdoor_enabled?
-    before_filter :slackdoor_username_present?
-    before_filter :slackdoor_token_valid?
+    before_action :slackdoor_enabled?
+    before_action :slackdoor_username_present?
+    before_action :slackdoor_token_valid?
 
     def knock
       route = topic_route params[:text]
