@@ -1,3 +1,26 @@
+# DEPRECATION NOTICE
+
+This plugin is now deprecated.
+
+There is no plan to maintain or enhance it.
+
+---
+
+As of August 17, 2019, it still works but with limitations.  
+
+In particular:
+
+1. It doesn't unfurl messages that don't _start_ with the link (this was always the case).
+2. It does not really do what one would expect in threads; the message is "unfurled" in the main channel.
+
+In addition, outgoing webhooks are no longer recommended by Slack. They recommend creating a Slack App for this kind of integration now.
+
+You may find this plugin useful as is, despite these limitations, but doing so comes with the above limitations and the risks that come with using software that is no longer maintained.
+
+It is unclear whether there is any existing alternative to this plugin, so there is likely an opportunity for someone else to make something that solves this problem in a better way.
+
+---
+
 # Discourse Slackdoor
 
 The `discourse-slackdoor` plugin allows Slack to unfurl links to your private Discourse instance.
